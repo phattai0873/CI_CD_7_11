@@ -23,8 +23,8 @@ jobs:
 
     - name: Build and Push Docker image
       run: |
-        docker build -t phattaiiii/test-ci-cd:latest .
-        docker push phattaiiii/test-ci-cd:latest
+        docker build -t phattaiiii/ci_ci_7_11:latest .
+        docker push phattaiiii/ci_ci_7_11:latest
 
     - name: Trigger Render Deploy
       run: |
